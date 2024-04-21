@@ -1,12 +1,66 @@
 body,html{
-    background-color: #F8b195;
+    margin: 0;
+    padding: 0 ;
+    
 }
 
 .top-section-wrapper{
-   
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    object-position: 0%;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700 ;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    background-image: url(images/background-image.jpg.jpg);
+  
 }
 
 .top-section-heading{
-    font-size: ;
-    margin: 162px  100px ;
+    color: wheat;
+    font-size: 4rem;
+    margin: 60px;
+    line-height: 97.3% ;
+    padding-left: 10%;
 }
+.top-section-heading-description{
+    font-size: 1.25rem;
+    line-height: 169.3%;
+
+   
+}
+
+    
+    
+
+.first-button {
+    font-size: 1.25rem;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 13px 25px;
+    border: 1px solid ;
+    padding: 0  1rem 0 1rem ;
+    font-family: 'open+sans';
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.second-button{
+    font-size: 1.25rem;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 13px 25px;
+    border: 2px solid ;
+    padding: 0  1rem 0 1rem ;
+    font-family: 'open+sans';
+    text-align: center;
+    text-decoration: none;
+
+}
+
+
