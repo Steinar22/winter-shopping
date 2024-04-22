@@ -6,7 +6,7 @@ body,html{
 
 .top-section-wrapper{
     overflow: hidden;
-    padding-left: 16px;
+    padding-left: 30px;
     padding-right: 16px;
     object-position: 0%;
     font-family: "Open Sans", sans-serif;
@@ -21,46 +21,79 @@ body,html{
 .top-section-heading{
     color: wheat;
     font-size: 4rem;
-    margin: 60px;
+    margin-top: 50px;
     line-height: 97.3% ;
-    padding-left: 10%;
+    padding-left: 7%;
+    
 }
-.top-section-heading-description{
-    font-size: 1.25rem;
+.heading-description{
     line-height: 169.3%;
+    margin: 1rem 0;
+    max-width: 635px;
 
    
 }
 
-    
+.our-btns{
+    display: inline-block;
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding:13px 25px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
     
 
-.first-button {
-    font-size: 1.25rem;
+.first-btn {
     display: inline-block;
     background-color: black;
     color: white;
-    padding: 13px 25px;
     border: 1px solid ;
-    padding: 0  1rem 0 1rem ;
+    padding: 0px 20px 1px 25px;
     font-family: 'open+sans';
     text-align: center;
     text-decoration: none;
-    
+    border-radius: 5%;
+   margin-top: 2%;
 }
 
-.second-button{
-    font-size: 1.25rem;
+.second-btn{
     display: inline-block;
     background-color: white;
     color: black;
-    padding: 13px 25px;
-    border: 2px solid ;
-    padding: 0  1rem 0 1rem ;
+    border: 1px solid ;
+    padding: 1px 20px 1px 25px;
     font-family: 'open+sans';
     text-align: center;
     text-decoration: none;
+    border-radius: 5%;
 
 }
+
+.top-btns{
+    margin-left: 80%;
+    margin-top: .30%;
+}
+
+.login-btn{
+    background-color: #42687C;
+    color: black;
+    padding: 14px 24px 14px 24px;
+    margin-right: 15px;
+    border: 1px ;
+    border-radius: 13%;
+}
+
+.cart-btn{
+    background-color: #84A5B8;
+    color: black;
+    padding: 14px 24px 14px 24px;
+    margin-right: 15px;
+    border: 1px;
+    border-radius: 13%;
+}
+
 
 
