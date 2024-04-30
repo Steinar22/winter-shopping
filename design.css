@@ -8,8 +8,8 @@ body,html{
     width : 100% ;
     display: flex;
     justify-content: center;
-    color : wheat;
-    background-color: #253c54 ;
+    color : black;
+    background-color: #CECAC8;
     font-family: "Open Sans", sans-serif ; 
 }
  
@@ -20,6 +20,8 @@ body,html{
 }
 
 
+
+
 .top-section-wrapper{
     overflow: hidden;
     padding-left: 30px;
@@ -28,11 +30,11 @@ body,html{
     font-weight: 700 ;
     font-style: normal;
     font-variation-settings:"wdth" 100;
-    background-image: url(images/background-image.jpg.jpg);
+    background-color: #363A57;
 }
 
 .top-section-heading{
-    color: wheat;
+    color: hsl(180, 50%, 50%);
     font-size: 4rem;
     margin-top: 50px;
     line-height: 97.3% ;
@@ -62,27 +64,29 @@ body,html{
     display: inline-block;
     background-color: black;
     color: white;
-    padding: 10px 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10%;
     cursor: pointer;
     font-size: 14px;
     text-decoration: none;
     margin-right: 15px;
 }
 
+
 .second-btn{
     display: inline-block;
     background-color: white;
     color: black;
-    padding: 10px 20px;
-     border: none;
-    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    border-radius: 10%;
     cursor: pointer;
     font-size: 14px;
     text-decoration: none;
-    margin-top: 5px;
-    margin
+    margin-right: 15px;
 }
 
 .top-btns{
@@ -108,5 +112,14 @@ body,html{
     margin-bottom: 1px ;
 }
 
+.bottom-heading {
+    font-size: 4rem;
+    margin-top: 50px;
+    line-height: 97.3% ;
+    padding-left: 7%;
+}
 
-
+.bottom-section-wrapper{
+    background-color: wheat;
+    overflow: hidden;
+}
