@@ -9,7 +9,7 @@ body,html{
     display: flex;
     justify-content: center;
     color : black;
-    background-color: #CECAC8;
+    background-color: wheat;
     font-family: "Open Sans", sans-serif ; 
 }
  
@@ -26,7 +26,7 @@ body,html{
     overflow: hidden;
     padding-left: 30px;
     padding-right: 16px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Playfair Display", sans-serif;
     font-weight: 700 ;
     font-style: normal;
     font-variation-settings:"wdth" 100;
@@ -122,4 +122,5 @@ body,html{
 .bottom-section-wrapper{
     background-color: wheat;
     overflow: hidden;
+    font-family: "Playfair Display", sans-serif;
 }
